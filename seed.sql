@@ -1,0 +1,6 @@
+-- Optional seed after creating an authenticated owner.
+-- Do not put real customer data here.
+-- Replace placeholders with your own IDs.
+--
+-- insert into public.organizations(name_en,name_ar,name_bn,cr_number,phone,whatsapp)
+-- values ('Demo Grocery','متجر تجريبي','ডেমো গ্রোসারি','CR-REPLACE','+974...','+974...');
