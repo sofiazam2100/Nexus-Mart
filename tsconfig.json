@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "ES2022",
     "useDefineForClassFields": true,
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -30,7 +34,12 @@
     "money.ts",
     "offlineQueue.ts",
     "supabase.ts",
-    "styles.css"
+    "styles.css",
+    "vite-env.d.ts"
   ],
-  "exclude": ["node_modules", "dist", "supabase/**"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "supabase/**"
+  ]
 }
