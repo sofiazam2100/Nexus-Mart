@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react'
-import { createOrganization } from '../lib/auth'
+import { createOrganization } from './auth'
 
 export default function Onboarding({ onDone }: { onDone: () => void }) {
   const [form,setForm]=useState({name_en:'',name_ar:'',name_bn:'',cr_number:'',phone:'',whatsapp:'',branch_name:'Main Branch',branch_code:'MAIN'})

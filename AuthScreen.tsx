@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react'
-import { signIn, signUp } from '../lib/auth'
+import { signIn, signUp } from './auth'
 
 export default function AuthScreen() {
   const [mode, setMode] = useState<'login'|'signup'>('login')

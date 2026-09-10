@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
-import { supabase } from './lib/supabase'
-import { getMyMemberships, signOut } from './lib/auth'
-import { checkout } from './lib/checkout'
-import { formatQarMinor, qarToMinor } from './lib/money'
+import { supabase } from './supabase'
+import { getMyMemberships, signOut } from './auth'
+import { checkout } from './checkout'
+import { formatQarMinor, qarToMinor } from './money'
 import { LayoutDashboard, ShoppingCart, Package, Users, Truck, RotateCcw, WalletCards, BarChart3, Settings, LogOut, Plus, Minus, Search, ArrowDownToLine, Save, UserCog, FileText, Printer, MessageCircle, Copy, ShieldCheck, Building2, Languages, Download, UploadCloud, CalendarClock } from 'lucide-react'
-import AuthScreen from './components/AuthScreen'
-import Onboarding from './components/Onboarding'
-import { t } from './lib/i18n'
+import AuthScreen from './AuthScreen'
+import Onboarding from './Onboarding'
+import { t } from './i18n'
 
 type Product={id:string;name_en:string;name_ar:string;name_bn:string;barcode:string|null;sku:string|null;cost_minor:number;selling_minor:number;stock_qty:number;reorder_level:number;branch_id:string|null;category_id:string|null;active:boolean}
 type Customer={id:string;name:string;phone:string|null;whatsapp:string|null;balance_minor:number;credit_limit_minor:number}
